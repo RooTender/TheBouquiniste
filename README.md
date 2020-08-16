@@ -1,4 +1,4 @@
-# TheBouquiniste <img src="https://github.com/RooTender/TheBouquiniste/blob/master/static/favicon.ico" height=40>
+# TheBouquiniste
 
 A simple project dedicated for better books management.
 
