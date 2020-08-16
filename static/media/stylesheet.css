@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Roboto&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #5B2222;
+}
+
+
+header {
+    font-family: 'Parisienne';
+    padding: 2rem 5rem;
+    border-bottom: 1px solid grey;
+    background-color: #F7F2F2;
+    margin-bottom: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1, header h2 {
+    margin: 0 1rem;
+}
+
+.nav__links {
+    list-style: none;
+    padding: 0;
+}
+.nav__links li {
+    display: inline;
+    padding: 1.5rem;
+}
+.nav__links li * {
+    font-family: 'Parisienne';
+    font-size: 2rem;
+    text-decoration: none;
+}
+.nav__links li *:hover, a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav__links li *.success:hover, a.success:hover {
+    text-decoration-color: #0da54a;
+}
+.nav__links li *.danger:hover {
+    text-decoration-color: #d51111;
+}
+.nav__links li *.info:hover {
+    text-decoration-color: #4e9af1;
+}
+
+main * {
+    color:#020202;
+}
+main h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #F7F2F2;
+}
+main a {
+    font-size: large;
+    text-decoration: none;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+.sort-btn {
+    padding: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 1.35em;
+    border-bottom: 2px solid black;
+    color: #F7F2F2;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table * {
+    color: #F7F2F2;
+}
+thead {
+    text-align: left;
+}
+th, td {
+    padding: .75rem .5rem;
+}
+tr > td:first-child {
+    width: 1.25rem;
+}
+tbody tr {
+    border-bottom: 1px solid #35000E;
+}
+
+.search * {
+    color: black;
+}
+
+.Bouquiniste {
+    font-family: 'Parisienne';
+}
+.row {
+    margin: 1.5rem 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.white {
+    color: #F7F2F2;
+}
+
+.textify {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.form-action-btn {
+    margin: 1rem;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-action-btn:hover {
+    text-decoration: underline;
+}
+
+.fab-submit {
+    float: right;
+    color: #F7F2F2; 
+}
+
+select {
+    background-color: transparent;
+    border-color: #020202;
+    color: #F7F2F2;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.paging * {
+    color: #b3b3b3; 
+}
+
+.center {
+    text-align: center;
+}
+
+hr {
+    border-style: solid;
+    border-color: #4d0014;
+    margin: 2.5rem 0;
+    border-width: 0.1px;
+}

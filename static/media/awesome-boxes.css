@@ -1,0 +1,27 @@
+.box {
+    margin: 1rem;
+    border: solid;
+    border-color: transparent;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.box * {
+    text-align: center;
+    color: #F7F2F2;
+}
+
+.box-success, .box-success * {
+    background-color: #0a7635;
+    color: #13ec6a;
+}
+
+.box-danger, .box-danger * {
+    background-color: #8e0b0b;
+    color: #d51111;
+}
+
+.box-info, .box-info * {
+    background-color: #0d54a5;
+    color: #71aef4;
+}
