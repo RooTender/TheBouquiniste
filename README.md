@@ -18,5 +18,6 @@ User is able to:
 - remove records
 - search for a specific book (search with dedicated fields)
 - export database do CSV
+- *sorting & paging included*
 
 > Note that project is 100% in Polish language. I'll update it soon...
