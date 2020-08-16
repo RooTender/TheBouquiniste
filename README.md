@@ -1,5 +1,4 @@
-# TheBouquiniste
-[![GitHub license](https://img.shields.io/github/license/RooTender/TheBouquiniste)](https://github.com/RooTender/TheBouquiniste/blob/master/LICENSE)
+# TheBouquiniste [![GitHub license](https://img.shields.io/github/license/RooTender/TheBouquiniste)](https://github.com/RooTender/TheBouquiniste/blob/master/LICENSE)
 A simple project dedicated for better books management.
 
 ## Books
