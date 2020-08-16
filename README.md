@@ -16,9 +16,12 @@ Each book (record) has 5 fields:
 User is able to:
 
 - add records
+![adding](https://github.com/RooTender/TheBouquiniste/blob/master/adding.gif)
+
 - remove records
 - search for a specific book (search with dedicated fields)
 - export database do CSV
 - *sorting & paging included*
+![other](https://github.com/RooTender/TheBouquiniste/blob/master/other.gif)
 
 > Note that project is 100% in Polish language. I'll update it soon...
